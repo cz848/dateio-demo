@@ -1,0 +1,14 @@
+{
+  "name": "dateio-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tyler Chao",
+  "license": "ISC",
+  "dependencies": {
+    "dateio": "cz848/dateio"
+  }
+}
