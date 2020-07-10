@@ -3,7 +3,10 @@ import dateio from 'dateio';
 //app.js
 App({
   dateio,
-  onLaunch: function () {
+  onLaunch() {
+    console.log(dateio(new Date));
+  },
+  login() {
     // 登录
     wx.login({
       success: res => {
